@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settingsId"
+        android:icon="@drawable/ic_launcher_background"
+        android:orderInCategory="2"
+        android:title="Settings"/>
+
+    <item
+        android:icon="@drawable/ic_launcher_background"
+        android:orderInCategory="3"
+        android:title="Log in"/>
+
+    <item
+        app:showAsAction="ifRoom"
+        android:id="@+id/homeId"
+        android:orderInCategory="1"
+        android:icon="@drawable/ic_launcher_background"
+        android:title="Home"/>
+
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Log out"/>
+
+</menu>
